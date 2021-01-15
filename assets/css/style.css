@@ -1,0 +1,38 @@
+:root {
+  --roxo: #7952b3;
+  --fundo: #eeeeee79;
+}
+
+.bg-menu {
+  background-color: var(--roxo);
+}
+
+.bg-body {
+  background: var(--fundo);
+}
+
+li {
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.font-instalada,
+.card-title {
+  font-family: "Montserrat", sans-serif;
+}
+
+.anchor-font {
+  color: #2ca2da;
+}
+
+.anchor-font:hover {
+  color: var(--roxo);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.4rem;
+}
+
+.btn-cor {
+  background: var(--roxo);
+  border-color: var(--roxo);
+}
